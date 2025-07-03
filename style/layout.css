@@ -1,17 +1,32 @@
+<<<<<<< HEAD
 #app {
     display: grid;
     grid-template-columns: 38.79% 62.21%;
+=======
+#app{
+    display: grid;
+    grid-template-columns: 32.79% 67.21%;
+>>>>>>> c99d51e (Configurações basica do projeto | Adicionando imagens incos font-family | layout)
     /* Calculo  (820 * 100) / 1220 = 67.21  */
     /*  67.21 de um lado e 32.79 do outro */
     height: 100vh;
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 main {
     overflow: hidden;
 }
 
 aside {
+=======
+main{
+    overflow: hidden;
+}
+
+
+aside{
+>>>>>>> c99d51e (Configurações basica do projeto | Adicionando imagens incos font-family | layout)
     overflow: auto;
     padding: 5rem;
 }
