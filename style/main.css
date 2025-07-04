@@ -1,0 +1,55 @@
+
+.main-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Logo no topo da tela */
+.logo-container {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    z-index: 1;
+}
+
+.logo {
+    width: 45.85px;
+    /* ajuste o tamanho da logo */
+    height: 48px;
+}
+
+/* Título centralizado */
+.titulo-central {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+.titulo-central span {
+    display: block;
+    font-size: 4rem;
+    font-family: var(--ff-logo);
+    color: var(--accent-pink);
+    margin-bottom: 0.5rem;
+
+}
+
+.titulo-central p {
+    font-family: var(--ff-body);
+    color: var(--text-body);
+    font-size: var(--fs-body-md);
+    font-weight: var(--fw-regular);
+}
