@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 @import url("global.css");
 @import url("layout.css");
 @import url("main.css");
-=======
-@import url("layout.css");
-@import url("global.css");
->>>>>>> c99d51e (Configurações basica do projeto | Adicionando imagens incos font-family | layout)
+@import url("aside.css");
+@import url("aside-form.css");

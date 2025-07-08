@@ -68,4 +68,5 @@
 
 body {
     overflow: hidden;
+    background-color: var(--shape-body);
 }

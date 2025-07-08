@@ -2,74 +2,119 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-=======
->>>>>>> c99d51e (Configurações basica do projeto | Adicionando imagens incos font-family | layout)
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de convite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="style/index.css">
-<<<<<<< HEAD
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Leckerli+One&family=Montserrat:ital,wght@0,500;1,500&family=Syne:wght@700&display=swap"
-        rel="stylesheet">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Leckerli+One&family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Syne:wght@700&display=swap"
-        rel="stylesheet">
 
-=======
->>>>>>> c99d51e (Configurações basica do projeto | Adicionando imagens incos font-family | layout)
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de convite</title>
+
+  <link rel="stylesheet" href="style/index.css">
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Leckerli+One&family=Montserrat:ital,wght@0,500;1,500&family=Syne:wght@700&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Leckerli+One&family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Syne:wght@700&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Leckerli+One&family=Montserrat:ital,wght@0,500;1,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Syne:wght@700&display=swap"
+    rel="stylesheet">
+
+
 </head>
 
 <body>
 
-    <div id="app">
-<<<<<<< HEAD
+  <div id="app">
+    <main class="main-container">
 
-        <main class="main-container">
-            <img class="bg-img" src="assets/Background.svg" alt="Imagem de fundo">
+      <img class="bg-img" src="assets/Background.svg" alt="Imagem de fundo">
 
-            <!-- Logo no topo -->
-            <div class="logo-container">
-                <img class="logo" src="assets/logo.svg" alt="Logo do festival">
+
+      <div class="logo-container">
+        <img class="logo" src="assets/logo.svg" alt="Logo do festival">
+      </div>
+
+
+      <div class="titulo-central">
+        <span>Festivite</span>
+        <p>Crie um convite digital para o seu evento</p>
+      </div>
+    </main>
+
+
+    <aside id="aside-container">
+      <section class="form-container">
+        <!-- Título principal -->
+        <h1>Crie seu convite</h1>
+
+        <!-- Seção: Sobre o evento -->
+        <div class="section-header">
+          <img src="assets/icnos/calenda.svg" alt="">
+          <h2>Sobre o evento</h2>
+        </div>
+
+        <form class="form-evento">
+
+          <!-- Título do evento -->
+          <div class="form-group">
+            <span for="titulo">Título</span>
+            <input type="text" id="titulo" name="titulo" placeholder="Nome do evento">
+          </div>
+
+          <!-- Início e Fim -->
+          <div class="form-row">
+            <div class="form-group">
+              <span for="inicio">Início</span>
+              <input type="text" id="inicio" name="inicio" placeholder="DD/MM/AAAA, --:--">
             </div>
 
-            <!-- Nome do festival centralizado -->
-            <div class="titulo-central">
-                <span>Festivite<span>
-                        <p>Crie um convite digital para o seu evento</p>
+            <div class="form-group">
+              <span for="fim">Fim</span>
+              <input type="text" id="fim" name="fim" placeholder="DD/MM/AAAA, --:--">
             </div>
-        </main>
+          </div>
 
-
-
-
-        <aside>
-            <div class="aside-contiainer">
-      aside
-=======
-        <main class="main-container">
-            mian
-        </main>
-
-
-        <aside>
-            <div class="aside-contiainer">
-                aside
->>>>>>> c99d51e (Configurações basica do projeto | Adicionando imagens incos font-family | layout)
+          <!-- Tipo e Local -->
+          <div class="form-row">
+            <div class="form-group">
+              <span>Tipo</span>
+              <div class="tipo-botoes">
+                <button type="button" class="botao-tipo ativo">🏢 Presencial</button>
+                <button type="button" class="botao-tipo">🎥 Online</button>
+              </div>
             </div>
-        </aside>
-    </div>
+
+            <div class="form-group">
+              <span for="local">Local</span>
+              <input type="text" id="local" name="local" placeholder="Link ou endereço">
+            </div>
+          </div>
+
+          <!-- Descrição -->
+          <div class="form-group">
+            <span for="descricao">Descrição</span>
+            <textarea id="descricao" name="descricao" placeholder="Escreva sobre os detalhes do evento">Escreva sobre os detalhes do evento</textarea>
+          </div>
+        </form>
+      </section>
+
+    </aside>
+  </div>
 
 </body>
 

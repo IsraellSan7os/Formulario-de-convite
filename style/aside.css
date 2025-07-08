@@ -1,0 +1,8 @@
+#aside-container {
+    background-color: var(--shape-body);
+    max-width: 820px;
+    max-height: 1981px;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
