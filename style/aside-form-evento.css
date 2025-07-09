@@ -17,6 +17,7 @@ h1 {
   gap: 12px;
 
   margin-top: 40px;
+  margin-bottom: 24px;
 }
 
 .section-header img {
@@ -28,8 +29,9 @@ h1 {
 .section-header h2 {
   color: var(--text-heading);
   font-family: var(--ff-heading);
-  font-size: var(--fs-heading-md);
-  font-weight: var(--fw-bold);
+  font-size: var(--fs-heading-sm);
+  font-weight: var(--fw-bold); 
+
 }
 
 
@@ -62,6 +64,9 @@ textarea {
   min-height: 120px;
   resize: vertical;
   border-radius: 8px;
+  color: var(--input-placeholder);
+  font-family: var(--ff-body);
+  padding-top: 10px;
 }
 
 .form-row {

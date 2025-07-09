@@ -1,0 +1,71 @@
+.form-personalisacao span {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body-sm);
+    color: var(--text-body);
+}
+
+.color-picker {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px 0;
+}
+
+.color-picker input[type="checkbox"] {
+    display: none;
+
+}
+
+.color-circle {
+    padding:12px ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 0;
+
+}
+
+.color-circle.navy {
+    background-color: var(--accent-navy);
+}
+
+.color-circle.purple {
+    background-color: var(--accent-purple);
+}
+
+.color-circle.fuchsia {
+    background-color: var(--accent-fuchsia);
+}
+
+.color-circle.pink {
+    background-color: var(--accent-pink);
+}
+
+.color-circle.orange {
+    background-color: var(--accent-orange);
+}
+
+.color-circle.yellow {
+    background-color: var(--accent-yellow);
+}
+
+.color-circle.lime {
+    background-color: var(--accent-lime);
+}
+
+.color-circle.green {
+    background-color: var(--accent-green);
+}
+
+.color-circle.cyan {
+    background-color: var(--accent-cyan);
+}
+
+.color-picker input[type="checkbox"]:checked+label {
+    border-color: #4da6ff;
+    box-shadow: 0 0 4px #4da6ff88;
+}
