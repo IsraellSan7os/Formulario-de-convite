@@ -10,6 +10,30 @@
 .container-main {
     overflow: auto;
     padding: 5rem 8.12rem;
+
+    .header-main{
+        display: block;
+
+        h1{
+            font: var(--heading-md);
+            margin-bottom: 2.5rem;
+        }
+
+        div{
+            display: flex;
+            gap: 12px;
+            align-items: center;
+
+            img{
+                width: 24px;
+                height: 24px;
+            }
+
+            h2{
+                font: var(--heading-sm);
+            }
+        }
+    }
 }
 
 .container-header {
